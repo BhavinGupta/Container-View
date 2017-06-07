@@ -7,6 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FirstPageViewController.h"
+#import "SecondPageViewController.h"
 
 @interface PageViewController : UIPageViewController<UIPageViewControllerDelegate,UIPageViewControllerDataSource>
 

@@ -21,13 +21,8 @@
     self.delegate = self;
     self.dataSource = self;
     
-    UIViewController *firstVC = [[UIViewController alloc]init];
-    firstVC.view.frame = self.view.frame;
-    [firstVC.view setBackgroundColor:[UIColor redColor]];
-    
-    UIViewController *secondVC = [[UIViewController alloc]init];
-    secondVC.view.frame = self.view.frame;
-    [secondVC.view setBackgroundColor:[UIColor greenColor]];
+    FirstPageViewController *firstVC = [self.storyboard instantiateViewControllerWithIdentifier:@"FirstPageViewController"];
+    SecondPageViewController *secondVC = [self.storyboard instantiateViewControllerWithIdentifier:@"SecondPageViewController"];
     
     self.aryPages = [NSMutableArray new];
     [self.aryPages addObjectsFromArray:@[firstVC,secondVC]];
@@ -35,9 +30,8 @@
     [self setViewControllers:@[self.aryPages[0]] direction:UIPageViewControllerNavigationDirectionForward animated:YES completion:nil];
     
     UIPageControl *pageControl = [UIPageControl appearanceWhenContainedIn:self.class, nil];
-    pageControl.pageIndicatorTintColor = [UIColor whiteColor];
+    pageControl.pageIndicatorTintColor = [UIColor orangeColor];
     pageControl.currentPageIndicatorTintColor = [UIColor blackColor];
-    pageControl.backgroundColor = [UIColor blueColor];
 }
 
 - (void)didReceiveMemoryWarning {

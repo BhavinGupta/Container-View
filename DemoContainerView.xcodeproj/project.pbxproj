@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD9241831EE7DBCF0045F462 /* FirstPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9241821EE7DBCF0045F462 /* FirstPageViewController.m */; };
+		BD9241861EE7DC500045F462 /* SecondPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9241851EE7DC500045F462 /* SecondPageViewController.m */; };
 		BDC680A41EDBF95100D59429 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC680A31EDBF95100D59429 /* main.m */; };
 		BDC680A71EDBF95100D59429 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC680A61EDBF95100D59429 /* AppDelegate.m */; };
 		BDC680AA1EDBF95100D59429 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDC680A91EDBF95100D59429 /* ViewController.m */; };
@@ -17,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD9241811EE7DBCF0045F462 /* FirstPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstPageViewController.h; sourceTree = "<group>"; };
+		BD9241821EE7DBCF0045F462 /* FirstPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstPageViewController.m; sourceTree = "<group>"; };
+		BD9241841EE7DC500045F462 /* SecondPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondPageViewController.h; sourceTree = "<group>"; };
+		BD9241851EE7DC500045F462 /* SecondPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondPageViewController.m; sourceTree = "<group>"; };
 		BDC6809F1EDBF95100D59429 /* DemoContainerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoContainerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDC680A31EDBF95100D59429 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BDC680A51EDBF95100D59429 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +74,10 @@
 				BDC680AB1EDBF95100D59429 /* Main.storyboard */,
 				BDC680B91EDBFDE800D59429 /* PageViewController.h */,
 				BDC680BA1EDBFDE800D59429 /* PageViewController.m */,
+				BD9241811EE7DBCF0045F462 /* FirstPageViewController.h */,
+				BD9241821EE7DBCF0045F462 /* FirstPageViewController.m */,
+				BD9241841EE7DC500045F462 /* SecondPageViewController.h */,
+				BD9241851EE7DC500045F462 /* SecondPageViewController.m */,
 				BDC680AE1EDBF95100D59429 /* Assets.xcassets */,
 				BDC680B01EDBF95100D59429 /* LaunchScreen.storyboard */,
 				BDC680B31EDBF95100D59429 /* Info.plist */,
@@ -159,7 +169,9 @@
 				BDC680AA1EDBF95100D59429 /* ViewController.m in Sources */,
 				BDC680A71EDBF95100D59429 /* AppDelegate.m in Sources */,
 				BDC680A41EDBF95100D59429 /* main.m in Sources */,
+				BD9241861EE7DC500045F462 /* SecondPageViewController.m in Sources */,
 				BDC680BB1EDBFDE800D59429 /* PageViewController.m in Sources */,
+				BD9241831EE7DBCF0045F462 /* FirstPageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +336,7 @@
 				BDC680B81EDBF95100D59429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
